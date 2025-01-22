@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Sweta/AutomationUK">
+        <classes>
+            <class name="com.qa.testcases.MenuTest">
+                <methods>
+                    <include name="click"/></methods></class>
+            
+            <class name="com.qa.testcases.Link">
+                <methods><include name="clickalllink"/></methods>
+                
+            </class>
+            <class name="com.qa.testcases.AccordionTest">
+                <methods><include name="accordion"/></methods>
+            </class>
+        </classes>
+
+     
+    </test>
+</suite>
